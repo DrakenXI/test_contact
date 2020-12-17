@@ -1,0 +1,42 @@
+ezplatform/bin/pdepend
+ezplatform/bin/php-cs-fixer
+ezplatform/bin/phpcbf
+ezplatform/bin/phpcpd
+ezplatform/bin/phpcs
+ezplatform/bin/phpmd
+ezplatform/bin/pscss
+ezplatform/bin/ezbehat
+
+data/metrics/*.md
+ide-twig.json
+project.conf
+
+# Temp file
+*~
+*.bak
+.php~
+*.swp
+*.pyc
+
+# IDE specifics
+.idea
+.DS_Store
+/nbproject/
+/.idea/
+
+.buildpath
+.project
+.settings/
+
+# Platform.sh
+/dfsdata/
+
+# Docker
+.docker-sync
+/provisioning/dev/solr/server/ez/solr.xml
+/provisioning/dev/solr/server/ez/template
+/provisioning/dev/solr/server/ez/atlantic/data
+/provisioning/dev/solr/server/ez/training/data
+/provisioning/dev/solr/server/ez/atlantic_mon_installateur/data
+
+.php_cs.cache

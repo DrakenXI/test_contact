@@ -1,0 +1,17 @@
+last_update_check: 1608211120
+provisioning:
+    folder_name: provisioning
+docker:
+    compose_filename: docker-compose.yml
+    network_name: testez
+    network_prefix_port: 42
+composer:
+    http_basic:
+        -
+            host: updates.ez.no
+            login: root
+            password: root
+        -
+            host: updates.ez.no
+            login: root
+            password: root
