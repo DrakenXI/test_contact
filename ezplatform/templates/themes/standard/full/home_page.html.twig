@@ -1,0 +1,7 @@
+{% extends '@ezdesign/pagelayout.html.twig' %}
+
+{% block content %}
+    {% for contact in contacts.currentPageResults %}
+        {{ render( controller( 'ez_content::viewAction', { 'location': contact.valueObject, 'viewType': 'line' } )) }}
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends '@ezdesign/pagelayout.html.twig' %}
+
+{% block content %}
+    <article>
+        <header>{{ ez_render_field( content, 'civilite') }}{{ fullname }}</header>
+        <p>{{ ez_render_field( content, 'email') }}</p>
+        <p>{{ ez_render_field( content, 'web_site') }}</p>
+
+        {{ ez_render_field( content, 'picture', { parameters: { 'alias': 'contact_vignet' }}) }}
+
+    </article>
+{% endblock %}

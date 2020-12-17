@@ -1,0 +1,8 @@
+ezplatform:
+  system:
+    default:
+      image_variations:
+        contact_vignet:
+          reference: null
+          filters:
+            - {name: geometry/scaledownonly, params: [100, 150]}
